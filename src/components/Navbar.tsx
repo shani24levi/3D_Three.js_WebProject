@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState<boolean>(false);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll: (arg: unknown) => unknown = (): void => {
       const scrollTop = window.scrollY;
       if (scrollTop > 100) {
         setScrolled(true);

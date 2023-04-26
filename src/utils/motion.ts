@@ -1,6 +1,7 @@
 import { Delay, Direction } from './types';
+import { Variants } from 'framer-motion';
 
-export const textVariant = (delay: Delay) => {
+export const textVariant = (delay?: Delay): Variants => {
   return {
     hidden: {
       y: -50,
@@ -19,10 +20,10 @@ export const textVariant = (delay: Delay) => {
 };
 
 export const fadeIn = (
-  direction: Direction,
+  direction: '' | 'left' | 'right' | 'up' | 'down',
   type: string,
   delay: Delay,
-  duration: string
+  duration: number
 ) => {
   return {
     hidden: {
@@ -88,9 +89,9 @@ export const slideIn = (
 };
 
 export const staggerContainer = (
-  staggerChildren: string,
-  delayChildren: string
-) => {
+  staggerChildren?: number,
+  delayChildren?: number
+): Variants => {
   return {
     hidden: {},
     show: {

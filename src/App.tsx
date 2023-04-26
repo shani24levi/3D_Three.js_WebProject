@@ -19,15 +19,15 @@ const App: React.FC = (): JSX.Element => {
           <Navbar />
           <Hero />
         </div>
-        {/* <About />
-        <Experience />
+        <About />
+        {/* <Experience /> */}
         <Tech />
-        <Works />
-        <Feedbacks />
+        {/* <Works /> */}
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
-        </div> */}
+        </div>
       </div>
     </BrowserRouter>
   );

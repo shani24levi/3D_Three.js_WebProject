@@ -26,6 +26,10 @@ Amazing 3D Web app using three.js library,</br> Learning 3D library and animatio
 | [SVGOMG](https://jakearchibald.github.io/svgomg/) | For refining and compressing SVGs |
 | [TinyPng](https://tinypng.com/) | For JPEG/PNG Image Compression |
 
+## Demo
+
+- [Click here](shani-vite-three.infinityfreeapp.com)
+
 ## Run Locally
 
 Clone the project
