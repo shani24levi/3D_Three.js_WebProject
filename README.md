@@ -28,7 +28,7 @@ Amazing 3D Web app using three.js library,</br> Learning 3D library and animatio
 
 ## Demo
 
-- Click here : http://shani-vite-three.infinityfreeapp.com
+- Click here : [http://shani-vite-three.infinityfreeapp.com](https://shani-vit-ts.netlify.app/)
 
 ## Run Locally
 
